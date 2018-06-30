@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Montserrat;
   background-color: #303030;
   display: flex;
   justify-content: center;
@@ -27,6 +27,8 @@ body {
   align-items: center;
   margin: 15px 0px;
   margin-right: 0px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 84px 0px rgba(0,0,0,0.75);
 }
 
 .evenAndOddPB {
@@ -56,7 +58,7 @@ body {
   border-radius: 2px;
   background-color: #303030;
   margin-top: 10px;
-  font-family: Roboto;
+  font-family: Montserrat;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
@@ -96,7 +98,7 @@ body {
   border-radius: 2px;
   background-color: #4fc3f7;
   border: none;
-  font-family: Roboto;
+  font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
@@ -109,7 +111,7 @@ body {
 
 /* Text */
 h4 {
-  font-family: Roboto;
+  font-family: Montserrat;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.4;
@@ -118,7 +120,7 @@ h4 {
 }
 
 .puzzleText {
-  font-family: Roboto;
+  font-family: Montserrat;
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
@@ -129,3 +131,26 @@ h4 {
   margin-bottom: 35px;
 }
 
+/* Custom Adjustments */
+
+#fadedTitle {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  left: 30px;
+  letter-spacing: 5px;
+}
+
+#fadedSubtitle {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  position: fixed;
+  top: 60px;
+  left: 30px;
+  letter-spacing: 7px;
+}
